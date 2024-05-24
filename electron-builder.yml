@@ -1,0 +1,6 @@
+target: nsis
+asar: true
+files:
+  - "!src"
+  - "!test"
+  - "!.vscode"

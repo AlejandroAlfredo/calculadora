@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div>
+      <main role="main">
+        <div id="headOut">
+          <div class="output">
+            <input id="operaciones" type="text" readonly />
+          </div>
+          <div class="output">
+            <input id="resultado" type="text" placeholder="0" readonly />
+          </div>
+        </div>
+        <div>
+          <div class="rowButtons">
+            <div class="boxButtons">
+              <button type="button" id="btnSiete" class="btnNumeros">7</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnOcho" class="btnNumeros">8</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnNueve" class="btnNumeros">9</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnDelete" class="btnNumeros">DEL</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnClear" class="btnNumeros">AC</button>
+            </div>
+          </div>
+          <div class="rowButtons">
+            <div class="boxButtons">
+              <button type="button" id="btnCuatro" class="btnNumeros">4</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnCinco" class="btnNumeros">5</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnSeis" class="btnNumeros">6</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnMultiplicar" class="btnNumeros">*</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnDividir" class="btnNumeros">/</button>
+            </div>
+          </div>
+          <div class="rowButtons">
+            <div class="boxButtons">
+              <button type="button" id="btnUno" class="btnNumeros">1</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnDos" class="btnNumeros">2</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnTres" class="btnNumeros">3</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnSumar" class="btnNumeros">+</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnRestar" class="btnNumeros">-</button>
+            </div>
+          </div>
+          <div class="rowButtons">
+            <div class="boxButtons">
+              <button type="button" id="btnCero" class="btnNumeros">0</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnPunto" class="btnNumeros">.</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnNegacion" class="btnNumeros">( - )</button>
+            </div>
+            <div class="boxButtons">
+              <button type="button" id="btnIgual" class="btnNumeros">=</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
