@@ -4,6 +4,10 @@
 
 Esta es una calculadora básica. Esta calculadora utiliza `electron` y `vite`, pero con `electron-vite` se puede configurar todos los archivos `vite` en un solo archivo de configuración. También se utiliza `electron-builder` para construir los binarios.
 
+**Observación:**
+
+Al utilizar la operación de división puedo notar algunas inconsistencias en la precisión del resultado.
+
 ## Desarrollo
 
 Instala las dependencias antes de ejecutar los otros scripts:
